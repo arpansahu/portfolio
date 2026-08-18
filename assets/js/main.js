@@ -32,6 +32,7 @@ fetch('data/projects.json')
       `;
       grid.appendChild(card);
     });
+    document.dispatchEvent(new CustomEvent('projects:rendered'));
   })
   .catch(() => {
     document.getElementById('project-grid').textContent =

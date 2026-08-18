@@ -55,7 +55,68 @@ h1, h2, h3 { line-height: 1.2; margin: 0 0 .5rem; }
 .btn-outline { border: 1px solid rgba(255,255,255,0.2); color: var(--text) !important; }
 .btn-primary:hover, .btn-outline:hover { opacity: .85; }
 
-/* Hero */
+/* Scroll progress bar */
+.page-progress {
+  position: fixed;
+  top: 0; left: 0;
+  height: 3px;
+  width: 0%;
+  background: linear-gradient(90deg, var(--accent), var(--accent-2));
+  z-index: 100;
+  transition: width 0.1s linear;
+}
+
+/* Custom cursor */
+.cursor-dot, .cursor-ring { display: none; }
+body.has-custom-cursor { cursor: none; }
+body.has-custom-cursor a, body.has-custom-cursor button { cursor: none; }
+body.has-custom-cursor .cursor-dot {
+  display: block;
+  position: fixed;
+  top: 0; left: 0;
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: var(--accent-2);
+  pointer-events: none;
+  z-index: 999;
+  transform: translate(-100px, -100px);
+  margin-left: -3px; margin-top: -3px;
+}
+body.has-custom-cursor .cursor-ring {
+  display: block;
+  position: fixed;
+  top: 0; left: 0;
+  width: 32px; height: 32px;
+  margin-left: -16px; margin-top: -16px;
+  border-radius: 50%;
+  border: 1px solid rgba(124, 92, 255, 0.6);
+  pointer-events: none;
+  z-index: 998;
+  transform: translate(-100px, -100px);
+  transition: width 0.2s, height 0.2s, margin 0.2s, border-color 0.2s;
+}
+body.has-custom-cursor .cursor-ring.cursor-hover {
+  width: 52px; height: 52px;
+  margin-left: -26px; margin-top: -26px;
+  border-color: var(--accent-2);
+  background: rgba(34, 211, 238, 0.08);
+}
+
+/* Fade-in sections (before GSAP kicks in, avoid flash of unstyled content) */
+.fade-section { opacity: 1; }
+
+/* Hero canvas background */
+.hero { position: relative; overflow: hidden; }
+#hero-canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  pointer-events: none;
+}
+.hero-inner { position: relative; z-index: 1; }
+
 .hero { padding: 5rem 2rem 4rem; text-align: center; }
 .hero-inner { max-width: var(--max-w); margin: 0 auto; }
 .avatar { width: 120px; height: 120px; border-radius: 50%; object-fit: cover; border: 3px solid var(--accent); margin-bottom: 1.5rem; }

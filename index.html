@@ -13,6 +13,10 @@
 </head>
 <body>
 
+<div class="page-progress" id="page-progress"></div>
+<div class="cursor-dot" id="cursor-dot"></div>
+<div class="cursor-ring" id="cursor-ring"></div>
+
 <header class="nav">
   <a href="#" class="brand">Arpan Sahu</a>
   <nav class="links">
@@ -26,6 +30,7 @@
 
 <main>
   <section class="hero" id="top">
+    <canvas id="hero-canvas"></canvas>
     <div class="hero-inner">
       <img src="assets/img/avatar.png" alt="Arpan Sahu" class="avatar">
       <h1>Arpan Sahu</h1>
@@ -44,7 +49,7 @@
     </div>
   </section>
 
-  <section class="section" id="about">
+  <section class="section fade-section" id="about">
     <h2>About</h2>
     <p>
       I'm a Python/Django engineer who enjoys owning systems end-to-end — from schema design and APIs
@@ -55,7 +60,7 @@
     <div class="stack-badges" id="stack-badges"></div>
   </section>
 
-  <section class="section" id="experience">
+  <section class="section fade-section" id="experience">
     <h2>Experience &amp; Education</h2>
     <div class="timeline">
       <div class="tl-item">
@@ -89,13 +94,13 @@
     </div>
   </section>
 
-  <section class="section" id="projects">
+  <section class="section fade-section" id="projects">
     <h2>Projects</h2>
     <p class="section-sub">A selection of self-hosted, production-deployed Django/Python/React projects.</p>
     <div class="project-grid" id="project-grid">Loading projects…</div>
   </section>
 
-  <section class="section" id="contact">
+  <section class="section fade-section" id="contact">
     <h2>Get in touch</h2>
     <p class="section-sub">Fastest way to reach me — no backend required, this form posts straight to my inbox.</p>
     <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
@@ -114,6 +119,9 @@
   <p>&copy; <span id="year"></span> Arpan Sahu. Built as a static site — free-hosted, always on.</p>
 </footer>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
 <script src="assets/js/main.js"></script>
+<script src="assets/js/fx.js"></script>
 </body>
 </html>
