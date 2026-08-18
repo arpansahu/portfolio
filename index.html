@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arpan Sahu | Backend-heavy Full Stack Engineer</title>
+<meta name="description" content="Arpan Sahu — Django/Python engineer building real-time, data and infra-heavy systems. Portfolio, projects and resume.">
+<meta property="og:title" content="Arpan Sahu | Full Stack Engineer">
+<meta property="og:description" content="Django/Python engineer building real-time, data and infra-heavy systems.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="nav">
+  <a href="#" class="brand">Arpan Sahu</a>
+  <nav class="links">
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+    <a href="assets/pdfs/resume.pdf" target="_blank" class="btn-outline">Resume</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero" id="top">
+    <div class="hero-inner">
+      <img src="assets/img/avatar.png" alt="Arpan Sahu" class="avatar">
+      <h1>Arpan Sahu</h1>
+      <p class="tagline">Backend-heavy Full Stack Engineer — Django, Python, real-time &amp; infra systems.</p>
+      <p class="sub">I build and self-host production systems end-to-end: APIs, queues, caching, CI/CD and
+        Kubernetes — currently running <strong>10+ live projects</strong> on my own home-lab infrastructure
+        at <a href="https://arpansahu.space" target="_blank">arpansahu.space</a>.</p>
+      <div class="cta-row">
+        <a href="#projects" class="btn-primary">View Projects</a>
+        <a href="#contact" class="btn-outline">Get in touch</a>
+      </div>
+      <div class="social-row">
+        <a href="https://github.com/arpansahu" target="_blank">GitHub</a>
+        <a href="https://arpansahu.space" target="_blank">arpansahu.space</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <h2>About</h2>
+    <p>
+      I'm a Python/Django engineer who enjoys owning systems end-to-end — from schema design and APIs
+      to queues, caching, deployment and monitoring. Most of my public projects are fully containerized,
+      shipped through a Jenkins/Kubernetes pipeline, and self-hosted on my own home server so I can
+      experiment freely with real infrastructure (Postgres, Redis, MinIO, RabbitMQ, Kafka).
+    </p>
+    <div class="stack-badges" id="stack-badges"></div>
+  </section>
+
+  <section class="section" id="experience">
+    <h2>Experience &amp; Education</h2>
+    <div class="timeline">
+      <div class="tl-item">
+        <span class="tl-year">2023 —</span>
+        <div>
+          <h3>Microsoft</h3>
+          <p>Technology corporation — software &amp; cloud services.</p>
+        </div>
+      </div>
+      <div class="tl-item">
+        <span class="tl-year">Jul 2022 —</span>
+        <div>
+          <h3>Trellix (FireEye)</h3>
+          <p>Cybersecurity company — detection &amp; prevention of security threats.</p>
+        </div>
+      </div>
+      <div class="tl-item">
+        <span class="tl-year">Feb 2021 —</span>
+        <div>
+          <h3>GammaStack</h3>
+          <p>iGaming IT services and platform provider.</p>
+        </div>
+      </div>
+      <div class="tl-item">
+        <span class="tl-year">2012 – 2016</span>
+        <div>
+          <h3>B.Tech, Computer Science &amp; Engineering</h3>
+          <p>Lakshmi Narain College of Technology and Excellence.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="projects">
+    <h2>Projects</h2>
+    <p class="section-sub">A selection of self-hosted, production-deployed Django/Python/React projects.</p>
+    <div class="project-grid" id="project-grid">Loading projects…</div>
+  </section>
+
+  <section class="section" id="contact">
+    <h2>Get in touch</h2>
+    <p class="section-sub">Fastest way to reach me — no backend required, this form posts straight to my inbox.</p>
+    <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <input type="text" name="name" placeholder="Your name" required>
+      <input type="email" name="email" placeholder="Your email" required>
+      <textarea name="message" rows="5" placeholder="Message" required></textarea>
+      <button type="submit" class="btn-primary">Send message</button>
+    </form>
+    <p class="section-sub" style="margin-top:1rem;">
+      Or email directly: <a href="mailto:contact@arpansahu.space">contact@arpansahu.space</a>
+    </p>
+  </section>
+</main>
+
+<footer class="footer">
+  <p>&copy; <span id="year"></span> Arpan Sahu. Built as a static site — free-hosted, always on.</p>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>

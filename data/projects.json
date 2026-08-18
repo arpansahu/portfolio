@@ -1,0 +1,158 @@
+[
+  {
+    "key": "arpansahu_dot_me",
+    "title": "arpansahu.space | Django Personal Portfolio",
+    "github": "https://github.com/arpansahu/arpansahu_dot_me",
+    "demo": "https://arpansahu.space/",
+    "image": "arpansahu_dot_me.png",
+    "bullets": [
+      "Django-based portfolio with profile, projects, contact page (Mailjet), resume download.",
+      "README-to-HTML conversion tooling and admin resume upload.",
+      "Dockerized, deployed on Kubernetes with a full Jenkins CI/CD pipeline."
+    ]
+  },
+  {
+    "key": "great_chat",
+    "title": "Great Chat | Real-time Django Chat App",
+    "github": "https://github.com/arpansahu/great_chat",
+    "demo": "http://great-chat.arpansahu.space",
+    "image": "great_chat.png",
+    "bullets": [
+      "Real-time chat using Django Channels, Redis and PostgreSQL.",
+      "Private, group and global chats with online/offline presence.",
+      "Dockerized, Kubernetes-deployed, CI/CD automated."
+    ]
+  },
+  {
+    "key": "borcelle_crm",
+    "title": "Borcelle CRM | Django Customer Relationship Manager",
+    "github": "https://github.com/arpansahu/borcelle_crm",
+    "demo": "https://borcelle-crm.arpansahu.space/",
+    "image": "borcelle_crm.png",
+    "bullets": [
+      "Email-driven CRM with task progress tracking.",
+      "Scheduled broadcast notifications to customers.",
+      "Dockerized, Kubernetes-deployed, CI/CD automated."
+    ]
+  },
+  {
+    "key": "chew_and_cheer",
+    "title": "Chew and Cheer | CRUD with AJAX, Forms, GraphQL & REST",
+    "github": "https://github.com/arpansahu/chew_and_cheer",
+    "demo": "https://chew-and-cheer.arpansahu.space",
+    "image": "chew_and_cheer.png",
+    "bullets": [
+      "Full auth system with Django's default auth model.",
+      "Restaurant menu CRUD via Django Forms, Ajax and GraphQL.",
+      "Dockerized, Kubernetes-deployed, CI/CD automated."
+    ]
+  },
+  {
+    "key": "clock_work",
+    "title": "Clock Work | Django Reminder & Notes App",
+    "github": "https://github.com/arpansahu/clock_work",
+    "demo": "https://clock-work.arpansahu.space/",
+    "image": "clock_work.png",
+    "bullets": [
+      "Notes, email reminders and task progress tracking.",
+      "Admin broadcast notifications for all users.",
+      "Dockerized, Kubernetes-deployed, CI/CD automated."
+    ]
+  },
+  {
+    "key": "school_chale_hum",
+    "title": "School Chale Hum | Django School Management App",
+    "github": "https://github.com/arpansahu/school_chale_hum",
+    "demo": "https://school-chale-hum.arpansahu.space/",
+    "image": "school_chale_hum.png",
+    "bullets": [
+      "Manages students, schools and books, with per-student progress tracking.",
+      "Custom Django management command to bulk-import CSV data.",
+      "Dockerized, Kubernetes-deployed, CI/CD automated."
+    ]
+  },
+  {
+    "key": "third_eye",
+    "title": "Third Eye | AI Disease Predictor",
+    "github": "https://github.com/arpansahu/third_eye",
+    "demo": "https://third-eye.arpansahu.space/",
+    "image": "third_eye.png",
+    "bullets": [
+      "Simple, function-based views for symptom input and disease prediction.",
+      "Shows nearby medical facilities based on user location.",
+      "Deployed on AWS EC2 with Docker/Kubernetes and CI/CD."
+    ]
+  },
+  {
+    "key": "numerical",
+    "title": "Numerical | Django Numeric Calculator",
+    "github": "https://github.com/arpansahu/numerical",
+    "demo": "https://numerical.arpansahu.space/",
+    "image": "numerical.png",
+    "bullets": [
+      "Interactive calculator built with SoftUI, Bootstrap and jQuery.",
+      "Supports add/subtract/multiply/divide and bracket evaluation.",
+      "Deployed on AWS EC2 with Docker/Kubernetes and CI/CD."
+    ]
+  },
+  {
+    "key": "altered_datum_api",
+    "title": "Altered Datum API | Django REST API for React Blog",
+    "github": "https://github.com/arpansahu/altered_datum_api",
+    "demo": "https://altered-datum-api.arpansahu.space/",
+    "image": "altered_datum.png",
+    "bullets": [
+      "Custom auth model with social login via drf-social-oauth2.",
+      "Full CRUD via Django REST Framework with Swagger/CoreAPI schema.",
+      "Powers the Altered Datum React front-end."
+    ]
+  },
+  {
+    "key": "altered_datum",
+    "title": "Altered Datum | React Blog Front-End",
+    "github": "https://github.com/arpansahu/altered_datum",
+    "demo": "https://altered-datum.arpansahu.space",
+    "image": "altered_datum.png",
+    "bullets": [
+      "React + Material UI blog front-end with admin CRUD.",
+      "Consumes the Altered Datum Django REST API via axios.",
+      "Forgot-password and social login integrated."
+    ]
+  },
+  {
+    "key": "django_starter",
+    "title": "Django Starter | Production-Ready Django Boilerplate",
+    "github": "https://github.com/arpansahu/django_starter",
+    "demo": "http://django-starter.arpansahu.space",
+    "image": "django_starter.png",
+    "bullets": [
+      "Latest stable Django with S3, cache, Celery progress bars and Sentry pre-wired.",
+      "Mailjet email integration out of the box.",
+      "Dockerized, Kubernetes-deployed, CI/CD automated."
+    ]
+  },
+  {
+    "key": "scrape_optimus",
+    "title": "Scrape Optimus | Web Scraping Platform",
+    "github": "https://github.com/arpansahu/scrape_optimus",
+    "demo": "https://scrapeoptimus.com/",
+    "image": "scrape_optimus.png",
+    "bullets": [
+      "Proxy aggregator integrating 200+ proxy providers.",
+      "Job scheduling, monitoring and alerting for scraping jobs.",
+      "AI-assisted spider generation planned."
+    ]
+  },
+  {
+    "key": "razorpay_ipn_django_handler",
+    "title": "Razorpay IPN Django Handler | Open-Source PyPI Package",
+    "github": "https://github.com/arpansahu/razorpay-ipn-django-handler",
+    "demo": "https://pypi.org/project/razorpay-ipn-django-handler/",
+    "image": "razorpay_ipn_django_handler.png",
+    "bullets": [
+      "Handles Razorpay payment, order and subscription webhooks.",
+      "Signal-based event tracking for easy integration.",
+      "Published as an installable PyPI package."
+    ]
+  }
+]
